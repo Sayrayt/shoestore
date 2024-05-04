@@ -1,0 +1,45 @@
+$btn-bg-color: rgb(63, 58, 58);
+$btn-bg-color-hover: rgb(49, 49, 49);
+$main-font-family: 'Roboto', sans-serif;
+
+.CitySelectionContainer {
+    display: inline-block;
+    text-align: center;
+    background-color: $btn-bg-color;
+    padding: 10px;
+    position: absolute;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+
+    span {
+        color: red;
+    }
+
+    .CityButtonsContainer {
+        margin: 10px;
+
+        .CityBonfirmationButton,
+        .CityChangeButton {
+            border-radius: 20px;
+            padding: 10px;
+            border-color: white;
+            background-color: $btn-bg-color;
+            color: white;
+            margin: 0 10px;
+
+            &:hover {
+                background-color: $btn-bg-color-hover;
+            }
+        }
+
+    }
+
+
+
+}
+
+.ChoosingCityContainer {
+    height: 100px;
+    background-color: rgb(28, 182, 74);
+    z-index: 4;
+}

@@ -1,0 +1,23 @@
+$bg-color: #ffffff;
+$main-font: 'Roboto', sans-serif;
+
+.DefaultPageNav {
+    background-color: $bg-color ;
+    font-family: $main-font;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+
+    .NavItems {
+        display: flex;
+    }
+
+    .NavMiniLogo {
+        padding: 0 10px 0 0;
+
+        a {
+            text-decoration: none;
+        }
+
+    }
+}

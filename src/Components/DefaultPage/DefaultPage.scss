@@ -1,0 +1,10 @@
+.DefaultPage{
+    padding-bottom: 1000px;
+    padding: 10px 150px;;
+    position: relative;
+
+    @media screen and (max-width: 1080px) {
+        padding: 10px 20px;
+        
+    }
+}

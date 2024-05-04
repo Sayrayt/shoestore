@@ -1,0 +1,45 @@
+$main-font: 'Roboto', sans-serif;
+
+.Header {
+    color: black;
+    font-family: $main-font;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .HeaderInformation {
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.LogotypeContainer {
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.ShoeStoreLocationContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    .city {
+        color: red;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            
+        }
+    }
+
+}

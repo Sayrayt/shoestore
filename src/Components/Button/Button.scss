@@ -1,0 +1,40 @@
+$bg-btn-color: red;
+
+.Button {
+    padding: 6px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: white;
+    background: $bg-btn-color;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgba($bg-btn-color, 0.7);
+    }
+
+    &__Outline {
+        border: 1px solid $bg-btn-color;
+        background-color: white;
+        color: $bg-btn-color;
+
+        &:hover {
+            background: $bg-btn-color;
+            color: white;
+        }
+    }
+
+
+}

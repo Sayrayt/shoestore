@@ -1,0 +1,23 @@
+.DefaultPageCitySelectionList {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(63, 58, 58);
+    color: white;
+    left: 50%;
+    z-index: 3;
+
+
+    .city {
+        color: red;
+    }
+
+    .searchLetter {
+        li {
+            list-style-type: none
+        }
+
+        span {
+            color: red;
+        }
+    }
+}
